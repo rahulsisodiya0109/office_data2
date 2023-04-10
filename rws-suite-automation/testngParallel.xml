@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Browsers support chrome, chrome-headless, chrome-ng ,chrome-android-->
+<!-- Environments support dev, qa, prod -->
+ <suite name="RWS Automation Suite" parallel="methods" thread-count="2" verbose="1">
+	<parameter name="env" value="prod" />
+	<parameter name="browser" value="chrome-ng" />
+	<test name="Regression-1">
+		<groups>
+			<run>
+				<exclude name="brokenTest" />
+				<exclude name="wip" />
+			</run>
+		</groups>
+		<classes>
+			<class name="suite.base.TestBase" />
+			<class name="suite.test.HomeTest" />
+		</classes>
+	</test>
+
+	<test name="Regression-2">
+		<groups>
+			<run>
+				<exclude name="brokenTest" />
+				<exclude name="wip" />
+			</run>
+		</groups>
+		<classes>
+			<class name="suite.base.TestBase" />
+			<class name="suite.test.MobilePrintersTest" />
+		</classes>
+	</test>
+</suite>

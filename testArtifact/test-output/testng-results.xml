@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-31T11:10:08Z" name="Default suite" finished-at="2023-03-31T11:10:28Z" duration-ms="20055">
+    <groups>
+    </groups>
+    <test started-at="2023-03-31T11:10:08Z" name="Default test" finished-at="2023-03-31T11:10:28Z" duration-ms="20055">
+      <class name="testArtifact.Cases_Test">
+        <test-method signature="Case1()[pri:0, instance:testArtifact.Cases_Test@3561c410]" started-at="2023-03-31T11:10:08Z" name="Case1" finished-at="2023-03-31T11:10:15Z" duration-ms="7700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method signature="Case3()[pri:0, instance:testArtifact.Cases_Test@3561c410]" started-at="2023-03-31T11:10:15Z" name="Case3" finished-at="2023-03-31T11:10:19Z" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case3 -->
+        <test-method signature="Case4()[pri:0, instance:testArtifact.Cases_Test@3561c410]" started-at="2023-03-31T11:10:19Z" name="Case4" finished-at="2023-03-31T11:10:28Z" duration-ms="8519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case4 -->
+      </class> <!-- testArtifact.Cases_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

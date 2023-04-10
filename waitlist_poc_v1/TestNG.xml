@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="waitlist_poc_v1">
+
+	<listeners>
+		<listener class-name="com.waitlist.utilities.Reporting" />
+	</listeners>
+
+	<test name="waitlist_Login Test1">
+		<parameter name="browser" value="chrome" />  <!-- chrome firefox -->
+		<classes>
+			<class name="com.waitlist.testCases.TC_LoginTest_001" />
+			<class name="com.waitlist.testCases.TC_LoginTest_002_DataDriven" />
+			<class name="com.waitlist.testCases.TC_SignupTest_003"></class>
+		</classes>
+
+	</test> <!-- Test -->
+	<test name="waitlist_Login Test2">
+		<parameter name="browser" value="firefox" />  <!-- chrome firefox -->
+		<classes>
+			<class name="com.waitlist.testCases.TC_LoginTest_001" />
+			<class name="com.waitlist.testCases.TC_LoginTest_002_DataDriven" />
+			<class name="com.waitlist.testCases.TC_SignupTest_003"></class>
+		</classes>
+
+	</test>
+
+
+</suite> <!-- Suite -->

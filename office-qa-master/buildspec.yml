@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building project"
+      - |
+        curl -X POST \
+        -H 'Content-type: application/json' \
+        -H 'auth-token: 79161dbc-3ae1-452f-aa50-29c23cead4fa' \
+        --data '{ "url": "https://wayleadr-pr-2967.herokuapp.com/", "labels": [ "ReviewApp"] }' \
+        https://api.testrigor.com/api/v1/apps/ihncNSoAb4vKnij84/retest
+      - echo "Build complete"

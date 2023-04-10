@@ -1,0 +1,143 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Browsers support chrome, chrome-headless, chrome-ng ,chrome-chinese 
+	,chrome-japanese -->
+<!-- Environments support netapp, fujitsu, lenovo -->
+<!-- <suite name="RWS Automation Suite" parallel="methods" thread-count="10" 
+	verbose="1"> -->
+<suite name="RWS Automation Suite" verbose="1">
+
+	<listeners>
+        <listener class-name="suite.listener.ExtentReporterNG" />
+    </listeners>
+	
+	   <!-- <test name="Regression Netapp for english">
+		<parameter name="env" value="netapp" />
+		<parameter name="browser" value="chrome-eng" />
+			<classes>
+				<class name="suite.base.TestBase" />
+			     <class name="suite.test.LoginTest" />  
+			  <class name="suite.test.AboutTest" />   
+			  <class name="suite.test.ClusterTest" />
+			   <class name ="suite.test.ReportValidation" />   
+				 <class name="suite.test.DashboardValidationTest" />    
+				   <class name ="suite.test.ManagmentActionsTest" /> 
+				 
+		</classes>
+	</test>
+	 -->
+	  
+	 <!-- 
+	     <test name="Regression Netapp for chinese">
+		<parameter name="env" value="netapp" />
+		<parameter name="browser" value="chrome-chinese" />
+			<classes>
+				 <class name="suite.base.TestBase" />
+				 <class name="suite.test.LoginTest" />
+				  <class name="suite.test.AboutTest" /> 
+				<class name="suite.test.ClusterTest" /> 
+				 <class name ="suite.test.ReportValidation" />
+				 <class name="suite.test.DashboardValidationTest" />
+				<class name ="suite.test.ManagmentActionsTest" /> 
+				
+				
+			</classes>
+	</test>  
+	 -->
+	 <!--      <test name="Regression Netapp for japanese">
+	 	<parameter name="env" value="netapp" />
+		<parameter name="browser" value="chrome-japanese" />
+			<classes>
+				 <class name="suite.base.TestBase" />
+				<class name="suite.test.LoginTest" />
+				<class name="suite.test.AboutTest" /> 
+				<class name="suite.test.ClusterTest" />
+				 <class name ="suite.test.ReportValidation" />
+				<class name="suite.test.DashboardValidationTest" />
+				<class name ="suite.test.ManagmentActionsTest" />             
+			   
+			</classes>
+	</test>   -->
+	
+	  
+   <!--  <test name="Regression Fujitsu for english">
+		<parameter name="env" value="fujitsu" />
+	    <parameter name="browser" value="chrome-eng" />
+		  <classes>
+			 <class name="suite.base.TestBase" />
+			  <class name="suite.test.LoginTest" />
+			       <class name="suite.test.AboutTest" />   
+				  <class name="suite.test.ClusterTest" />   
+				 <class name ="suite.test.ReportValidation" /> 
+				  <class name="suite.test.DashboardValidationTest" />  
+				  <class name ="suite.test.ManagmentActionsTest" />     
+			    <class name ="suite.test.Fujitsu_CheckPoints_Test" />   
+			</classes>
+	</test> 
+	  -->
+
+	 <!--    <test name="Regression Fujitsu for japanese">
+		<parameter name="env" value="fujitsu" />
+	<parameter name="browser" value="chrome-japanese" />
+		<classes>
+			<class name="suite.base.TestBase" />
+			<class name="suite.test.LoginTest" />
+				<class name="suite.test.AboutTest" />
+				<class name="suite.test.ClusterTest" />  
+				<class name ="suite.test.ReportValidation" />
+				<class name="suite.test.DashboardValidationTest" />
+				<class name ="suite.test.ManagmentActionsTest" />             
+			    <class name ="suite.test.Fujitsu_CheckPoints_Test" />   
+		</classes>
+	</test>   
+  -->
+	 
+	   
+    <test name="Regression Lenovo for english">
+		
+  <parameter name="env" value="lenovo" />
+	<parameter name="browser" value="chrome-eng" />
+		<classes>
+			<class name="suite.base.TestBase" />
+	      <!--  <class name="suite.test.LoginTest" />
+				 <class name="suite.test.AboutTest" />  -->
+			 	<class name="suite.test.ClusterTest" /> 
+			 <!-- 	<class name ="suite.test.ReportValidation" />
+			 <class name="suite.test.DashboardValidationTest" />
+				<class name ="suite.test.ManagmentActionsTest" />  -->          
+			
+		</classes>
+	</test> 
+ 
+	 <!-- 
+	   <test name="Regression Lenovo for chinese">
+		
+	<parameter name="env" value="lenovo" />
+	<parameter name="browser" value="chrome-chinese" />
+		<classes>
+			<class name="suite.base.TestBase" />
+	           <class name="suite.test.LoginTest" />
+				<class name="suite.test.AboutTest" />
+				<class name="suite.test.ClusterTest" />
+				<class name ="suite.test.ReportValidation" />
+				<class name="suite.test.DashboardValidationTest" />
+				<class name ="suite.test.ManagmentActionsTest" />               
+			    
+		</classes>
+	</test>   -->
+	<!--  
+	 <test name="Regression Lenovo for japanese">
+		
+<parameter name="env" value="lenovo" />
+	<parameter name="browser" value="chrome-japanese" />
+		<classes>
+			<class name="suite.base.TestBase" />
+		       <class name="suite.test.LoginTest" />
+				<class name="suite.test.AboutTest" />
+				<class name="suite.test.ClusterTest" /> 
+				<class name ="suite.test.ReportValidation" />
+			 <class name="suite.test.DashboardValidationTest" />
+				<class name ="suite.test.ManagmentActionsTest" />               
+			    
+		</classes>
+	</test>   -->
+</suite>

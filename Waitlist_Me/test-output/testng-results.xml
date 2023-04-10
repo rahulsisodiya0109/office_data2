@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-07T14:52:15 IST" name="Default suite" finished-at="2023-04-07T14:53:03 IST" duration-ms="47895">
+    <groups>
+    </groups>
+    <test started-at="2023-04-07T14:52:15 IST" name="Default test" finished-at="2023-04-07T14:53:03 IST" duration-ms="47895">
+      <class name="loginTest.Test1">
+        <test-method is-config="true" signature="set_Env()[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:15 IST" name="set_Env" finished-at="2023-04-07T14:52:22 IST" duration-ms="6229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Env -->
+        <test-method signature="enter_URL()[pri:1, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:22 IST" name="enter_URL" finished-at="2023-04-07T14:52:33 IST" duration-ms="11419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_URL -->
+        <test-method is-config="true" signature="capture(org.testng.ITestResult)[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:33 IST" name="capture" finished-at="2023-04-07T14:52:33 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_URL status=SUCCESS method=Test1.enter_URL()[pri:1, instance:loginTest.Test1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method signature="click_Login()[pri:2, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:33 IST" name="click_Login" finished-at="2023-04-07T14:52:37 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Login -->
+        <test-method is-config="true" signature="capture(org.testng.ITestResult)[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:37 IST" name="capture" finished-at="2023-04-07T14:52:37 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_Login status=SUCCESS method=Test1.click_Login()[pri:2, instance:loginTest.Test1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method signature="enter_Credentials(java.lang.Object,java.lang.Object)[pri:3, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:38 IST" name="enter_Credentials" data-provider="data_Set" finished-at="2023-04-07T14:52:43 IST" duration-ms="4356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Credentials -->
+        <test-method is-config="true" signature="capture(org.testng.ITestResult)[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:43 IST" name="capture" finished-at="2023-04-07T14:52:43 IST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Credentials status=SUCCESS method=Test1.enter_Credentials(java.lang.Object,java.lang.Object)[pri:3, instance:loginTest.Test1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method signature="enter_Credentials(java.lang.Object,java.lang.Object)[pri:3, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:43 IST" name="enter_Credentials" data-provider="data_Set" finished-at="2023-04-07T14:52:47 IST" duration-ms="4326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Credentials -->
+        <test-method is-config="true" signature="capture(org.testng.ITestResult)[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:47 IST" name="capture" finished-at="2023-04-07T14:52:47 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Credentials status=SUCCESS method=Test1.enter_Credentials(java.lang.Object,java.lang.Object)[pri:3, instance:loginTest.Test1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method signature="enter_Credentials(java.lang.Object,java.lang.Object)[pri:3, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:47 IST" name="enter_Credentials" data-provider="data_Set" finished-at="2023-04-07T14:52:52 IST" duration-ms="4383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[namratashah7@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Credentials -->
+        <test-method is-config="true" signature="capture(org.testng.ITestResult)[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:52 IST" name="capture" finished-at="2023-04-07T14:52:52 IST" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Credentials status=SUCCESS method=Test1.enter_Credentials(java.lang.Object,java.lang.Object)[pri:3, instance:loginTest.Test1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method signature="submit_Login()[pri:4, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:52 IST" name="submit_Login" finished-at="2023-04-07T14:52:57 IST" duration-ms="4559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit_Login -->
+        <test-method is-config="true" signature="capture(org.testng.ITestResult)[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:57 IST" name="capture" finished-at="2023-04-07T14:52:57 IST" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submit_Login status=SUCCESS method=Test1.submit_Login()[pri:4, instance:loginTest.Test1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method signature="return_LoginPage()[pri:5, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:52:57 IST" name="return_LoginPage" finished-at="2023-04-07T14:53:03 IST" duration-ms="6194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- return_LoginPage -->
+        <test-method is-config="true" signature="capture(org.testng.ITestResult)[pri:0, instance:loginTest.Test1@b9b00e0]" started-at="2023-04-07T14:53:03 IST" name="capture" finished-at="2023-04-07T14:53:03 IST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=return_LoginPage status=SUCCESS method=Test1.return_LoginPage()[pri:5, instance:loginTest.Test1@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+      </class> <!-- loginTest.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

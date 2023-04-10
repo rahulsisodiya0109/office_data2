@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="waitlist_poc_v1" duration-ms="163584" started-at="2023-04-10T19:49:17 IST" finished-at="2023-04-10T19:52:01 IST">
+    <groups>
+    </groups>
+    <test name="waitlist_Login Test1" duration-ms="76551" started-at="2023-04-10T19:49:17 IST" finished-at="2023-04-10T19:50:34 IST">
+      <class name="com.waitlist.testCases.TC_SignupTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_SignupTest_003@3d921e20]" name="setup" is-config="true" duration-ms="1877" started-at="2023-04-10T19:50:09 IST" finished-at="2023-04-10T19:50:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signupTest()[pri:0, instance:com.waitlist.testCases.TC_SignupTest_003@3d921e20]" name="signupTest" duration-ms="21326" started-at="2023-04-10T19:50:11 IST" finished-at="2023-04-10T19:50:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.waitlist.testCases.TC_SignupTest_003@3d921e20]" name="tearDown" is-config="true" duration-ms="841" started-at="2023-04-10T19:50:33 IST" finished-at="2023-04-10T19:50:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.waitlist.testCases.TC_SignupTest_003 -->
+      <class name="com.waitlist.testCases.TC_LoginTest_002_DataDriven">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@3234e239]" name="setup" is-config="true" duration-ms="1937" started-at="2023-04-10T19:49:33 IST" finished-at="2023-04-10T19:49:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@3234e239]" name="loginDDT" duration-ms="8528" started-at="2023-04-10T19:49:36 IST" data-provider="LoginData" finished-at="2023-04-10T19:49:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@3234e239]" name="loginDDT" duration-ms="8493" started-at="2023-04-10T19:49:45 IST" data-provider="LoginData" finished-at="2023-04-10T19:49:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@3234e239]" name="loginDDT" duration-ms="14910" started-at="2023-04-10T19:49:53 IST" data-provider="LoginData" finished-at="2023-04-10T19:50:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[namratashah7@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@3234e239]" name="tearDown" is-config="true" duration-ms="1115" started-at="2023-04-10T19:50:08 IST" finished-at="2023-04-10T19:50:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.waitlist.testCases.TC_LoginTest_002_DataDriven -->
+      <class name="com.waitlist.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_001@c46bcd4]" name="setup" is-config="true" duration-ms="3029" started-at="2023-04-10T19:49:17 IST" finished-at="2023-04-10T19:49:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.waitlist.testCases.TC_LoginTest_001@c46bcd4]" name="loginTest" duration-ms="12105" started-at="2023-04-10T19:49:20 IST" finished-at="2023-04-10T19:49:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.waitlist.testCases.TC_LoginTest_001@c46bcd4]" name="tearDown" is-config="true" duration-ms="889" started-at="2023-04-10T19:49:32 IST" finished-at="2023-04-10T19:49:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.waitlist.testCases.TC_LoginTest_001 -->
+    </test> <!-- waitlist_Login Test1 -->
+    <test name="waitlist_Login Test2" duration-ms="86616" started-at="2023-04-10T19:50:34 IST" finished-at="2023-04-10T19:52:01 IST">
+      <class name="com.waitlist.testCases.TC_LoginTest_002_DataDriven">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@46daef40]" name="setup" is-config="true" duration-ms="4763" started-at="2023-04-10T19:50:52 IST" finished-at="2023-04-10T19:50:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@46daef40]" name="loginDDT" duration-ms="9019" started-at="2023-04-10T19:50:57 IST" data-provider="LoginData" finished-at="2023-04-10T19:51:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@46daef40]" name="loginDDT" duration-ms="9034" started-at="2023-04-10T19:51:06 IST" data-provider="LoginData" finished-at="2023-04-10T19:51:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@46daef40]" name="loginDDT" duration-ms="17346" started-at="2023-04-10T19:51:15 IST" data-provider="LoginData" finished-at="2023-04-10T19:51:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[namratashah7@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.waitlist.testCases.TC_LoginTest_002_DataDriven@46daef40]" name="tearDown" is-config="true" duration-ms="1826" started-at="2023-04-10T19:51:33 IST" finished-at="2023-04-10T19:51:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.waitlist.testCases.TC_LoginTest_002_DataDriven -->
+      <class name="com.waitlist.testCases.TC_SignupTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_SignupTest_003@12f41634]" name="setup" is-config="true" duration-ms="4581" started-at="2023-04-10T19:51:35 IST" finished-at="2023-04-10T19:51:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signupTest()[pri:0, instance:com.waitlist.testCases.TC_SignupTest_003@12f41634]" name="signupTest" duration-ms="19725" started-at="2023-04-10T19:51:39 IST" finished-at="2023-04-10T19:51:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.waitlist.testCases.TC_SignupTest_003@12f41634]" name="tearDown" is-config="true" duration-ms="1590" started-at="2023-04-10T19:51:59 IST" finished-at="2023-04-10T19:52:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.waitlist.testCases.TC_SignupTest_003 -->
+      <class name="com.waitlist.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.waitlist.testCases.TC_LoginTest_001@7b69c6ba]" name="setup" is-config="true" duration-ms="4483" started-at="2023-04-10T19:50:34 IST" finished-at="2023-04-10T19:50:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.waitlist.testCases.TC_LoginTest_001@7b69c6ba]" name="loginTest" duration-ms="12533" started-at="2023-04-10T19:50:38 IST" finished-at="2023-04-10T19:50:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.waitlist.testCases.TC_LoginTest_001@7b69c6ba]" name="tearDown" is-config="true" duration-ms="1448" started-at="2023-04-10T19:50:51 IST" finished-at="2023-04-10T19:50:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.waitlist.testCases.TC_LoginTest_001 -->
+    </test> <!-- waitlist_Login Test2 -->
+  </suite> <!-- waitlist_poc_v1 -->
+</testng-results>

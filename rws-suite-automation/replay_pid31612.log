@@ -1,0 +1,55 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 292 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 833282 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/util/Map size ()I 0 0 1 0 -1
+ciMethod java/util/Map entrySet ()Ljava/util/Set; 0 0 1 0 -1
+ciMethod java/util/Hashtable clone ()Ljava/lang/Object; 129 1601 851 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 673 1 67684 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1233 1 181553 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 673 1 80006 0 -1
+ciMethod java/util/Collection toArray ()[Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List addAll (Ljava/util/Collection;)Z 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 1753 1 108538 0 32
+ciMethod java/util/AbstractCollection <init> ()V 457 1 154892 0 32
+ciMethod java/util/ArrayList <init> ()V 1473 1 90558 0 64
+ciMethod java/util/ArrayList calculateCapacity ([Ljava/lang/Object;I)I 1265 1 28980 0 0
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 1265 1 28980 0 576
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 1265 1 28980 0 544
+ciMethod java/util/ArrayList grow (I)V 185 1 6167 0 544
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 1265 1 23252 0 768
+ciMethod java/util/ArrayList addAll (Ljava/util/Collection;)Z 1 1 5120 0 1024
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2049 1 7327 0 160
+ciMethod java/util/ArrayList access$000 (Ljava/util/ArrayList;)I 1025 1 128 0 0
+ciMethod java/util/Set iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/AbstractMap <init> ()V 577 1 83338 0 0
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2049 1 112267 0 -1
+ciMethod java/util/HashMap tableSizeFor (I)I 2049 1 6404 0 -1
+ciMethod java/util/HashMap <init> ()V 161 1 77269 0 32
+ciMethod java/util/HashMap putMapEntries (Ljava/util/Map;Z)V 1873 4825 4473 0 2176
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 1785 105 11532 0 -1
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 353 2049 2094 0 -1
+ciMethod java/util/Map$Entry getKey ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map$Entry getValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/Math max (II)I 2361 1 23628 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2057 1 11730 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2089 1 5392 0 -1
+ciMethod java/util/LinkedHashMap <init> (Ljava/util/Map;)V 1849 1 10878 0 0
+ciMethodData java/lang/Object <init> ()V 2 833282 orig 264 88 131 72 103 0 0 0 0 128 4 179 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 17 168 101 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 2041 1 9039 0 96
+ciMethod java/util/ArrayList$Itr hasNext ()Z 2065 1 11173 0 96
+ciMethod java/util/ArrayList$Itr next ()Ljava/lang/Object; 4017 1 5622 0 224
+ciMethod java/util/ArrayList$Itr checkForComodification ()V 2457 1 6277 0 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 154892 orig 264 88 131 72 103 0 0 0 0 176 118 191 23 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57 0 0 0 153 230 18 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x25cd3 oops 0
+ciMethodData java/util/HashMap <init> ()V 2 77269 orig 264 88 131 72 103 0 0 0 0 32 141 193 23 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 0 9 110 9 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x12dc1 oops 0
+ciMethodData java/util/AbstractMap <init> ()V 2 83338 orig 264 88 131 72 103 0 0 0 0 48 222 192 23 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 0 0 0 17 42 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x14542 oops 0
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 23252 orig 264 88 131 72 103 0 0 0 0 240 7 192 23 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 0 0 0 177 209 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x5a36 0x1a0104 0x0 0x1a5ac800 0xc 0x1a5ac8b0 0x3 oops 2
